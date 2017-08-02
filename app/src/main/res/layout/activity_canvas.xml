@@ -39,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottom_layout"
-        android:layout_below="@id/canvas_view" />
+        android:layout_below="@id/canvas_view"
+        android:padding="12dp" />
 
 
 </RelativeLayout>

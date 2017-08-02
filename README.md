@@ -4,5 +4,3 @@
 
 
 ![](images/8.png)
-
-![](images/9.png)

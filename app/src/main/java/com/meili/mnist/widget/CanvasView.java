@@ -105,7 +105,7 @@ public class CanvasView extends View {
         for (int y = 0; y < newHeight; y++) {
             for (int x = 0; x < newWidth; x++) {
                 int pixel = newbm.getPixel(x, y);
-                data[newHeight * y + x] = pixel == 0xffffffff ? 0 : 1;
+                data[newWidth * y + x] = pixel == 0xffffffff ? 0 : 1;
             }
         }
     }
